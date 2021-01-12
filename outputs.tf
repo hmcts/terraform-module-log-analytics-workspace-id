@@ -8,5 +8,5 @@ output "subscription_id" {
 }
 output "workspace_id" {
   description = "log analytics Workspace id"
-  value       = "/subscriptions/${local.resolved_subscription_id}/resourcegroups/oms-automation/providers/microsoft.operationalinsights/workspaces/${local.resolved_name}"
+  value       = "/subscriptions/${local.resolved_subscription_id}/resourceGroups/oms-automation/providers/Microsoft.OperationalInsights/workspaces/${local.resolved_name}"
 }
