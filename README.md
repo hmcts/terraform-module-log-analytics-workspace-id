@@ -22,5 +22,6 @@ No provider.
 |------|-------------|
 | name | Name of the log analytics Workspace |
 | subscription\_id | Subscription id of log analytics Workspace |
+| resource\_group\_name | Resource group of log analytics Workspace |
 | workspace\_id | log analytics Workspace id |
 
