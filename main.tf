@@ -9,7 +9,7 @@
 
 locals {
   log_analytics_env_mapping = {
-    sandbox = ["sbox", "sbox-int","ptlsbox"]
+    sandbox = ["sandbox", "sbox", "sbox-int","ptlsbox"]
     nonprod = ["dev", "preview", "test", "ithc", "demo", "stg", "aat", "perftest", "nonprodi"]
     prod    = ["prod", "mgmt", "ldata", "prod-int", "ptl"]
   }
