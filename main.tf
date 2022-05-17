@@ -9,9 +9,9 @@
 
 locals {
   log_analytics_env_mapping = {
-    sandbox = ["idam-sandbox","sandbox", "sbox", "sbox-int","ptlsbox"]
-    nonprod = ["dev", "idam-preview","preview", "test", "idam-ithc", "ithc", "idam-demo", "demo", "stg", "idam-aat2", "aat", "idam-perftest", "perftest", "nonprodi"]
-    prod    = ["idam-prod2", "prod", "mgmt", "ldata", "prod-int", "ptl"]
+    sandbox = ["idam-saat", "idam-sandbox","sandbox", "sbox", "sbox-int","ptlsbox"]
+    nonprod = ["dev", "idam-preview","preview", "test", "idam-ithc", "ithc", "idam-demo", "demo", "stg", "idam-aat", "idam-aat2", "aat", "idam-perftest", "perftest", "nonprodi"]
+    prod    = ["idam-prod", "idam-prod2", "prod", "mgmt", "ldata", "prod-int", "ptl"]
   }
 
   log_analytics_workspace = {
