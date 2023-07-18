@@ -1,6 +1,15 @@
-# https://github.com/hmcts/terraform-module-log-analytics-workspace-id
+# terraform-module-log-analytics-workspace-id
 
-# This module is used to output log analytics workpsace name based on the environment.
+This module is used to output log analytics workpsace name based on the environment.
+
+```hcl
+module "log_analytics_workspace_id" {
+  source = "git@github.com:hmcts/terraform-module-log-analytics-workspace-id?ref=master"
+
+  environment = var.env
+}
+
+```
 
 ## Requirements
 
